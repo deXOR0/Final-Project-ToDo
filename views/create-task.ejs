@@ -1,0 +1,25 @@
+<%- include('header') -%>
+<div class="form-container">
+    <div class="login-form">
+        <form>
+            <div class="mb-3">
+                <label for="task-title" class="form-label">Task Title</label>
+                <input type="text" class="form-control" id="task-title" />
+            </div>
+            <div class="mb-3">
+                <label for="task-details" class="form-label"
+                    >Task Details</label
+                >
+                <textarea
+                    type="text"
+                    class="form-control"
+                    id="task-details"
+                    rows="5"
+                >
+                </textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Task</button>
+        </form>
+    </div>
+</div>
+<%- include('footer') -%>
